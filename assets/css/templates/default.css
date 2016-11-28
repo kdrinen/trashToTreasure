@@ -1,0 +1,45 @@
+body{
+background-color: #F0F7F4;
+}
+
+h1{
+  color: #705D56;
+}
+
+.container{
+  display: flex;
+}
+
+img{
+  border: 5px solid #32292F;
+  margin: 5%;
+  transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+
+img:hover {
+  opacity: 0;
+}
+
+.crossfade{
+  position: absolute;
+      left: 0; top: 0; right: 0; bottom: 0;
+}
+
+.crossfade1{
+  height: 450px;
+  width: 300px;
+  border: 5px solid #32292F;
+  background-color: #99E1D9;
+  position: absolute;
+      left: 0; top: 10%; right: 7%; bottom: 0;
+}
+
+.crossfade2{
+  height: 450px;
+  width: 300px;
+  border: 5px solid #32292F;
+  margin: 5%;
+  background-color: #70ABAF;
+
+}

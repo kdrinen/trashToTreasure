@@ -19,3 +19,7 @@ Featureimage:
 ----
 
 Tags: child,stuffed animal
+
+----
+
+Age-place: 12 years
