@@ -7,4 +7,8 @@ email: kdrinen@mcad.edu
 language: en
 role: admin
 history:
-  - home/childhood-keepsakes
+  - home
+  - home/travels/vase
+  - home/travels/dodger-bobblehead
+  - home/gifts/embroidered-dish-towel
+  - home/gifts/owl-wreath

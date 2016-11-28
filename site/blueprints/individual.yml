@@ -1,0 +1,22 @@
+title: Individual
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+  age/place:
+      label: Age/Place
+      type: textarea
+      width: 1/2
+  date:
+      label: Date Submitted
+      type: date
+      width: 1/2
+      default: today
+  tags:
+    label: tags
+    type: tags

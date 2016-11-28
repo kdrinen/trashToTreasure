@@ -16,11 +16,12 @@
   <?php echo $page->images() ?>
 </div>
 <!-- get a specific image from the page based on the selected featureImage filename -->
+<h3>Featured Image</h3>
 <?php echo $page->image( $page->featureImage() ) ?>
 
 <!-- lets do the same as above, but with a more HTML-EY approach -->
 
-<img src="<?php echo $page->image( $page->featureImage() )->url() ?>" alt="a feature image" />
+<?php echo $page->image($page->featureImage() ) ?>
 
 
 <h3>Sizing Images, 200x200, bad quality</h3>
@@ -37,14 +38,5 @@
 
 <?php endforeach ?>
 
-<h3>Children of this page tagged 'dates'</h3>
-<!-- https://getkirby.com/docs/cookbook/tags -->
-<ul class="tagMenu">
-<?php foreach( $php->children()->filterBy('tags', 'child', ',') as $childPage ): ?>
-  <li>
-    <a href="<?php echo $childPage->url() ?>"> <?php echo $childPage->title() ?></a>
-  </li>
-<?php endforeach ?>
-</ul>
 
 <?php snippet('footer') ?>

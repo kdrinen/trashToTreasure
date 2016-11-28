@@ -1,4 +1,4 @@
-title: Page
+title: Default
 pages: true
 files: true
 fields:
@@ -13,7 +13,7 @@ fields:
     type: textarea # the type that it is, kirby has many types on input
     width: 1/2 #how big?
   date:
-      label: choose a doomsday
+      label: Date
       type: date
       width: 1/2
       default: today

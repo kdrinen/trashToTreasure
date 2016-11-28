@@ -1,16 +1,30 @@
 title: Group
 pages: true
 files: true
-options:
-  preview: true
-  status: true
-  template: true
-  url: true
-  delete: true
 fields:
   title:
-    label: Page Title
-    type: text
+    label: Title
+    type:  text
   text:
-    label: text
-    type: textarea
+    label: Text
+    type:  textarea
+  subtext: #name it anything I want, we will use this to target in the template file.
+    label: Sub Text #what shows up in the panel
+    type: textarea # the type that it is, kirby has many types on input
+    width: 1/2 #how big?
+  date:
+      label: Date Uploaded
+      type: date
+      width: 1/2
+      default: today
+  featureImage:
+    label: Feature images
+    type: select
+    options: query
+    query:
+      fetch: images
+      value: '{{filename}}'
+      text: '{{filename}}'
+  tags:
+    label: tags
+    type: tags
