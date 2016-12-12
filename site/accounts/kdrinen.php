@@ -7,8 +7,8 @@ email: kdrinen@mcad.edu
 language: en
 role: admin
 history:
-  - home/childhood-keepsakes/elephant
-  - home/childhood-keepsakes/cap1
-  - home/childhood-keepsakes/bear
-  - home
   - home/submit
+  - home/search
+  - home/travels/hippo-bottle
+  - home/electronics
+  - home/gifts/owl-wreath

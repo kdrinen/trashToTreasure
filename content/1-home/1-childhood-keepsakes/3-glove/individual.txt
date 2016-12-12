@@ -1,0 +1,21 @@
+Title: Glove
+
+----
+
+Text: This is my first baseball glove I ever owned
+
+----
+
+Age-place: 
+
+----
+
+Date: 2016-12-03
+
+----
+
+Tags: baseball,glove,sports
+
+----
+
+Subtext: 71 years

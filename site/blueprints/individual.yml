@@ -8,10 +8,10 @@ fields:
   text:
     label: Text
     type:  textarea
-  age/place:
-      label: Age/Place
-      type: textarea
-      width: 1/2
+  subtext:
+    label: Age
+    type: textarea
+    width: 1/2
   date:
       label: Date Submitted
       type: date

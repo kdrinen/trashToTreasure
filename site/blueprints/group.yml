@@ -1,6 +1,7 @@
 title: Group
 pages: true
 files: true
+    sortable: true
 fields:
   title:
     label: Title
@@ -8,23 +9,11 @@ fields:
   text:
     label: Text
     type:  textarea
-  subtext: #name it anything I want, we will use this to target in the template file.
-    label: Sub Text #what shows up in the panel
-    type: textarea # the type that it is, kirby has many types on input
-    width: 1/2 #how big?
   date:
-      label: Date Uploaded
+      label: Date of Last Upload
       type: date
       width: 1/2
       default: today
-  featureImage:
-    label: Feature images
-    type: select
-    options: query
-    query:
-      fetch: images
-      value: '{{filename}}'
-      text: '{{filename}}'
   tags:
     label: tags
     type: tags

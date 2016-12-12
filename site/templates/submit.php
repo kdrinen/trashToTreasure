@@ -17,11 +17,6 @@
   </div>
 
   <div class="form-element">
-    <label for="location">Where are you from? </label>
-    <input type="text" id="location" name="location" placeholder="..." value="<?= isset($data['location']) ? $data['location'] : '' ?>"/>
-  </div>
-
-  <div class="form-element">
     <label for="message">Why have you held onto this item? *</label>
     <textarea name="message" id="message" placeholder="..."><?= isset($data['message']) ? $data['message'] : '' ?></textarea>
   </div>
@@ -45,7 +40,7 @@
   $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
   // Check if image file is a actual image or fake image
   if(isset($_POST["submit"])) {
-      $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+      $check = getimagesize($_FILES["fileToUpload"][" "]);
       if($check !== false) {
           echo "File is an image - " . $check["mime"] . ".";
           $uploadOk = 1;

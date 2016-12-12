@@ -1,0 +1,17 @@
+title: Search
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+  subtext:
+    label: Age/Place
+    type: textarea
+    width: 1/2
+  tags:
+    label: tags
+    type: tags
